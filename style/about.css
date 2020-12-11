@@ -1,9 +1,14 @@
 body{
-    background-image: url("WebPortfolio.jpg");
-    background-repeat: no-repeat;   
-    background-size: cover;    
+    background-image: url("Leap.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
+.header-content{
+    font-family: cursive;
+    color: lightskyblue;
+    opacity: 0.8;
+}
 
 .nav-bar{
     display:flex;
@@ -27,19 +32,3 @@ body{
     border: lightskyblue;
     border-style: solid;
 }
-
-.MyName-MyProject{
-    color: lightskyblue;
-    font-family: cursive;
-    opacity: 0.6;
-}
-.MyName-MyProject > a{
-    border-style: solid;
-    text-decoration: none;
-    color:lightskyblue;
-}
-
-.MyName-MyProject > a:hover{
-    color:white;
-}
-
