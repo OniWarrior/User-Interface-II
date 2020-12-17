@@ -1,0 +1,95 @@
+body{
+    background-image: url("Atomic.jpg");
+    background-repeat: no-repeat;   
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;     
+}
+
+.nav-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;    
+    background-color:black ;
+    padding-bottom: 2rem;
+    opacity: 0.7;
+    
+}
+
+.nav-bar > a{
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-bar > a:hover{
+    color:white;
+    border: lightskyblue;
+    border-style: solid;
+}
+
+
+.images{    
+    display:flex;    
+    flex-direction: column;
+    justify-content: space-between;       
+    height: 50rem;
+    width: 10rem;
+    padding-bottom: 2rem;  
+    padding-top: 3rem;  
+}
+
+.images .first-image{
+    background-image: url("FirstCodeExample.png");
+    height: 10rem;
+    width: 20rem;    
+}
+
+.images .first-image-content{
+    display: flex;
+}
+
+.images .second-image-content{
+    display: flex;
+}
+.images .third-image-content{
+    display: flex;
+}
+
+.images .fourth-image-content{
+    display: flex;
+}
+.images .second-image{
+    background-image: url("SecondCodeExample.png");
+    height: 10rem;
+    width: 20rem;
+}
+
+.images .third-image{
+    background-image: url("PhoneBook.PNG");
+    height: 10rem;
+    width: 20rem;
+}
+.images .fourth-image{
+    background-image: url("SQLExample.PNG");
+    height: 10rem;
+    width:20rem;
+}
+h3{
+    color: lightskyblue;
+    font-weight: bold;
+    font-family: cursive;
+    opacity: 0.8;
+}
+
+
+@media (max-height: 800px) AND (max-width: 500px)
+{
+    .nav-bar{        
+        flex-direction: column;   
+        text-align: center;
+    }  
+
+    
+}
