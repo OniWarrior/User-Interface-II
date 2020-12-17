@@ -1,7 +1,9 @@
 body{
     background-image: url("Atomic.jpg");
     background-repeat: no-repeat;   
-    background-size: cover;    
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;     
 }
 
 .nav-bar{
@@ -79,4 +81,15 @@ h3{
     font-weight: bold;
     font-family: cursive;
     opacity: 0.8;
+}
+
+
+@media (max-height: 800px) AND (max-width: 500px)
+{
+    .nav-bar{        
+        flex-direction: column;   
+        text-align: center;
+    }  
+
+    
 }

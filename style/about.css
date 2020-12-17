@@ -2,6 +2,8 @@ body{
     background-image: url("Leap.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .header-content{
@@ -31,4 +33,17 @@ body{
     color:white;
     border: lightskyblue;
     border-style: solid;
+}
+
+
+@media (max-height: 800px) AND (max-width: 500px)
+{
+    .nav-bar{        
+        flex-direction: column;   
+        text-align: center;
+    }  
+
+    .header-content{
+        text-align:center;
+    }    
 }
